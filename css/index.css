@@ -1,8 +1,10 @@
-.chart div {
-  margin: 5px;
-  padding: 3px;
+/* SVG style */
+.chart rect {
+  fill: steelblue;
+}
 
-  background: steelblue;
-  color: white;
-  text-align: right;
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
 }
